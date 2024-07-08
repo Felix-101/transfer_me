@@ -1,0 +1,88 @@
+name: transfer_me
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1 # Ensure the flutter_svg package is added
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - Assets/images/arrow-left.svg
+    - Assets/images/arrow-right.svg
+    - Assets/images/arrows-left.svg
+    - Assets/images/calendar.svg
+    - Assets/images/25.svg
+    - Assets/images/bolt.svg
+    - Assets/images/cart.svg
+    - Assets/images/mobile.svg
+    - Assets/images/transportation.svg
+    - Assets/images/tv.svg
+    - Assets/images/pharm.svg
+    - Assets/images/tickets.svg
+    - Assets/images/hotel.svg
+    - Assets/images/flight.svg
+    - Assets/images/fuel.svg
+    - Assets/images/play.svg
+    - Assets/images/food.svg
+    - Assets/images/check.svg
+    - Assets/images/Ellipse.svg
+    - Assets/images/Ellipse2.png
+    - Assets/images/Ellipse1.svg
+    - Assets/images/blueCheck.svg
+    - Assets/images/bottomLeft.svg
+    - Assets/images/topRight.svg
+    - Assets/images/plus.svg
+    - Assets/images/tag.svg
+    - Assets/images/shoppingBag.svg
+    - Assets/images/bubbleTea.svg
+    - Assets/images/chevron.svg
+    - Assets/images/edit.svg
+    - Assets/images/pen.svg
+    - Assets/images/blueTick.svg
+    - Assets/images/whiteTick.svg
+    - Assets/images/dbs.png
+    - Assets/images/citi.png
+    - Assets/images/fsb.png
+    - Assets/images/nib.png
+    - Assets/images/MaskGraph.png
+    - Assets/images/Maskgroup.png
+    - Assets/images/cards1.png
+    - Assets/images/cards2.png
+    - Assets/images/cards3.png
+    - Assets/images/ScanQR.png
+    - Assets/images/expenses.png
+    - Assets/images/monica.png
+    - Assets/images/dollar.png
+    - Assets/images/dollars.png
+    - Assets/images/delivery.png
+    - Assets/images/sarah.png
+    - Assets/images/shop.png
+    - Assets/images/profile.png
+    - Assets/images/ms.png
+    - Assets/images/ma.png
+    - Assets/images/js.png
+    - Assets/images/hr.png
+    - Assets/images/lu.png
+    - Assets/images/add.png
+# Ensure all assets used in your code are listed
+
+  fonts:
+    - family: SanFran
+      fonts:
+        - asset: assets/fonts/sanfran.otf
