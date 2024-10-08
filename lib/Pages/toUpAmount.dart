@@ -103,7 +103,7 @@ class _TopUpAmountScreenState extends State<TopUpAmountScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (contect) =>
+                              builder: (context) =>
                                   ResgistrationSuccesfulScreen()));
                     },
                     child: Container(
